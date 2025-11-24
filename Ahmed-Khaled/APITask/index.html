@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Services Example</title>
+</head>
+
+<link rel="stylesheet" href="/css/style.css">
+
+<body>
+    <h1> Trash Test Website</h1>
+    <p>Testing UserService and ProductService with XMLHttpRequest</p>
+
+    <div class="test-area">
+        <h2>User Service Tests</h2>
+        <button onclick="testGetAllUsers()">Get All Users</button>
+        <button onclick="testGetUser1()">Get User 1</button>
+        <button onclick="testCreateUser()">Create User</button>
+        <button onclick="testUserPosts()">Get User Posts</button>
+
+        <button onclick="testUpdateUser()">Update User 1</button>
+        <button onclick="testDeleteUser()">Delete User 1</button>
+
+        
+        <div id="userOutput" class="output">Click buttons to test User Service...</div>
+    </div>
+
+    <div class="test-area">
+        <h2>Product Service Tests</h2>
+        <button onclick="testGetAllProducts()">Get All Products</button>
+        <button onclick="testGetProduct1()">Get Product 1</button>
+        <button onclick="testGetCategories()">Get Categories</button>
+        <button onclick="testGetElectronics()">Get Electronics</button>
+
+        <button onclick="testCreateProduct()">Create Product</button>
+        <button onclick="testUpdateProduct()">Update Product 1</button>
+        <button onclick="testDeleteProduct()">Delete Product 1</button>
+        <div id="productOutput" class="output">Click buttons to test Product Service...</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
